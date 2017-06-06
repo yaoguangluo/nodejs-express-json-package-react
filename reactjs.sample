@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <meta charset="UTF-8">
+    <!--link rel='stylesheet' href='/stylesheets/style.css' /-->
+    <script src="https://fb.me/react-15.0.0.js"></script>
+    <script src="https://fb.me/react-dom-15.0.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+  </head>
+  <body>
+     <div id="first">
+     </div>
+    <script type="text/babel">
+      ReactDOM.render(
+        <h1>今天去 世界500强一家软件公司面试面试官是一个比我还小的小伙子上来就问我你知道array和array list吗，我说我用了10年了，
+他觉得我很吊，就问我你会什么编程语言，我说什么语言都用烂了，他说那就不问语言了，问我知道kubernetes不， 我说我经常用
+go改kubelet， 他觉得他没面子，就问我 你知道storm吗，我说我不用那种原始的东西，我用jstorm，有时候也自己改改里面的c文件
+，他马上问那你知道 kafka吗？我说我以前一个项目用kafka失败了后来用rocketq 和mqtt，面试官很激动，说那你知道grpc么？我说我
+很少用grpc因为软件很独立，而是用各种语言实现boot 形式就像运行mongoose一样。 面试官很无言，问我你知道宇宙的起源么？
+我回答说是大黑洞爆炸， 面试官流泪了说地球和月亮为什么会相互围绕运转， 我说就像弹性宇宙， 地球重力引起坍塌凹进去，月亮因
+为离心力倾斜围绕地球而得到平衡 而旋转。面试官没说话了，问我还有什么问题要问的，我说就一个问题，你知道为什么宇宙无限大么？
+面试官说不知道，我说我告诉你，因为宇宙只是一个虚拟机， 你越往边走就不停的malloc新的空间， 而这个虚拟机运行在我tin神的思维中，我
+的思维无限广，所以宇宙无限大。你们人类只是个线程，地球只是个docker。。。。 </h1>,
+        document.getElementById('first')
+      );
+    </script>  
+    {{{body}}}
+  </body>
+</html>
